@@ -7,6 +7,7 @@ function App() {
   return (
     <>
     <div>
+      <h1> Counter</h1>
       <p>{value}</p>
       <button className='btn' onClick={() => setValue(value + 1)}>Increment
       </button>
